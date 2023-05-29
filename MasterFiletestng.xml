@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="frameWork.DataDrivenReadFile"/>
+      <class name="learn_testNG.GroupsDemo"/>
+      <class name="learn_testNG.DataProviderDemo"/>
+      <class name="learn_testNG.AssertDemo"/>
+      <class name="learn_testNG.AssertDemoCross"/>
+      <class name="learn_testNG.CrossBrowserTesting"/>
+      <class name="learn_testNG.AnnotationOfTestNG"/>
+      <class name="frameWork.DataDrivenWriteFile"/>
+      <class name="learn_testNG.AnnotationOHM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
